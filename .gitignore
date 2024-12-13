@@ -1,3 +1,7 @@
+.vscode
+.idea
+.vercel
+
 # Logs
 logs
 *.log
@@ -22,3 +26,25 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Development Tool
+.idea/
+.vscode/
+
+# Data, Knowledgebase, Result
+data/
+output/
+
+package-lock.json
